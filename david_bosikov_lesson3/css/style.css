@@ -1,3 +1,9 @@
+@import url("//cdn.web-fonts.ge/fonts/bpg-glaho-web-caps/css/bpg-glaho-web-caps.min.css");
+@import url("//cdn.web-fonts.ge/fonts/bpg-banner-caps/css/bpg-banner-caps.min.css");
+@import url("//cdn.web-fonts.ge/fonts/bpg-nino-elite-round-cond/css/bpg-nino-elite-round-cond.min.css");
+@import url("//cdn.web-fonts.ge/fonts/arial-geo-bold/css/arial-geo-bold.min.css");
+
+
 .centered_page {
     width: 1291px;
     margin: 54px auto 0 auto;
@@ -25,6 +31,7 @@ header {
 }
 
 li {
+    font-family: "Arial GEO Bold", sans-serif;
     font-size: 26px;
     font-weight: 700;
     color: #8D81FF;
@@ -54,13 +61,16 @@ section {
 }
 
 .month {
-    font-size: 24px;
+    font-family: "BPG Nino Elite Round Cond", sans-serif;
+    font-size: 32px;
     font-weight: 400;
+    font-style: italic;
     color: #8D81FF;
     margin-bottom: 8px;
 }
 
 .header {
+    font-family: "BPG Banner Caps", sans-serif;
     font-size: 20px;
     font-weight: 700;
     color: #4E6FAE;
@@ -69,8 +79,9 @@ section {
 
 .description {
     width: 778px;
+    font-family: "BPG Glaho WEB Caps", sans-serif;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 700;
     color: #4E6FAE;
     line-height: 19.2px;
     display: inline-block;
